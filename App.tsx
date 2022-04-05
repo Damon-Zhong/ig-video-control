@@ -3,7 +3,7 @@ import React from "react";
 import { SafeAreaView, StyleSheet, useColorScheme } from "react-native";
 
 import { Colors } from "react-native/Libraries/NewAppScreen";
-import BottomNavigator from "./src/BottomNavigator";
+import BottomNavigator from "./src/navigation/BottomNavigator";
 
 const App: React.FC = () => {
   const isDarkMode = useColorScheme() === "dark";

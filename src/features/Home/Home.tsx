@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 
-const BottomNavigator: React.FC = () => {
+const Home: React.FC = () => {
   return (
     <View>
-      <Text>BottomNavigator</Text>
+      <Text>Home</Text>
     </View>
   );
 };
 
-export default BottomNavigator;
+export default Home;
 
 const styles = StyleSheet.create({});
